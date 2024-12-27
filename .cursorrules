@@ -1,0 +1,115 @@
+# REOR Development Rules
+
+# Code Style
+rules:
+  rust:
+    # Rust-specific rules
+    - "Follow Rust 2021 edition conventions"
+    - "Use proper error handling with Result types"
+    - "Implement proper trait bounds"
+    - "Use async/await for asynchronous operations"
+    - "Follow SOLID principles"
+    - "Comment complex algorithms"
+    - "Use proper visibility modifiers"
+    
+  typescript:
+    # TypeScript/React rules
+    - "Use functional components with hooks"
+    - "Proper type definitions for all props"
+    - "No any types unless absolutely necessary"
+    - "Use proper error boundaries"
+    - "Follow React best practices"
+    - "Use proper state management"
+
+# Documentation
+documentation:
+  - "Document all public functions"
+  - "Include examples in documentation"
+  - "Maintain README.md updates"
+  - "Add comments for complex logic"
+  - "Document API endpoints"
+  - "Include error handling documentation"
+
+# Testing
+testing:
+  - "Write unit tests for new features"
+  - "Include integration tests"
+  - "Test error conditions"
+  - "Add performance tests where relevant"
+  - "Document test scenarios"
+
+# Architecture
+architecture:
+  - "Maintain REOR's modular structure"
+  - "Follow existing patterns"
+  - "Keep modules decoupled"
+  - "Use dependency injection"
+  - "Maintain clear separation of concerns"
+
+# AI Integration
+ai_integration:
+  - "Use proper error handling for AI calls"
+  - "Include fallback options"
+  - "Maintain context awareness"
+  - "Handle rate limiting"
+  - "Cache results where appropriate"
+
+# Performance
+performance:
+  - "Optimize database queries"
+  - "Use proper indexing"
+  - "Implement caching where needed"
+  - "Monitor memory usage"
+  - "Handle large datasets efficiently"
+
+# Security
+security:
+  - "Sanitize all inputs"
+  - "Use proper authentication"
+  - "Implement proper access control"
+  - "Handle sensitive data properly"
+  - "Follow security best practices"
+
+# UI/UX
+ui_ux:
+  - "Maintain consistent styling"
+  - "Follow accessibility guidelines"
+  - "Support responsive design"
+  - "Use proper error messages"
+  - "Implement loading states"
+
+# Git
+git:
+  - "Use meaningful commit messages"
+  - "Keep PRs focused and small"
+  - "Update documentation with changes"
+  - "Include tests with new features"
+  - "Reference issues in commits"
+
+Vision for this project:  
+
+Transform REOR into a comprehensive farm management and personal knowledge management system that:
+
+Core Purpose:
+- Combines personal note-taking with farm business management
+- Handles both private and shared information intelligently
+- Uses AI to reduce manual organization
+- Makes document/information capture effortless
+
+Key Features:
+- Smart document processing (like File Organizer 2000)
+- Farm-specific modules (crop planning, grain inventory, etc.)
+- Intelligent context management (personal vs. farm)
+- Modern, user-friendly interface with canvas/whiteboard
+- Mobile-friendly for field use
+
+The system should:
+- Make capturing information as simple as taking a photo or voice note
+- Let AI handle the organization and relationships
+- Keep personal and business information appropriately separated
+- Make everything easily searchable and retrievable
+- Connect related information automatically
+- Be extendable with additional modules as needed
+
+Instead of building something from scratch or adapting accounting software, we're building on REOR's foundation to create a system that handles both personal knowledge and farm management in an integrated, AI-powered way.
+

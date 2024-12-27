@@ -22,11 +22,6 @@ export function chunkMarkdownByHeadings(markdownContent: string): string[] {
     }
     currentChunk.push(line)
   })
-
-  if (currentChunk.length) {
-    chunks.push(currentChunk.join('\n'))
-  }
-  return chunks
 }
 
 export const chunkStringsRecursively = async (
@@ -40,8 +35,7 @@ export const chunkStringsRecursively = async (
   })
 
   const chunks = await splitter.createDocuments(strings)
-  const mappedChunks = chunks.map((chunk) => chunk.pageContent)
-  return mappedChunks
+  return chunks.map((chunk) => chunk.pageContent)
 }
 
 export const chunkMarkdownByHeadingsAndByCharsIfBig = async (markdownContent: string): Promise<string[]> => {
