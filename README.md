@@ -85,3 +85,50 @@ We are always on the lookout for contributors keen on building the future of kno
 AGPL-3.0 license. See `LICENSE` for details.
 
 *Reor means "to think" in Latin.*
+
+## Features
+
+- **Smart Document Processing**
+  - Multi-modal content support (text, images, video, audio, tables)
+  - Automatic metadata extraction
+  - Semantic chunking and relationship mapping
+  - Customizable processing workflows
+  - AI-powered content analysis
+
+- **Enhanced Vector Database**
+  - Multiple vector representations per document
+  - Semantic relationship tracking
+  - Hierarchical document organization
+  - Advanced filtering and search capabilities
+  - Efficient data storage and retrieval
+
+- **Farm Management Integration**
+  - Specialized modules for agricultural data
+  - Crop planning and inventory management
+  - Field-friendly mobile interface
+  - Intelligent context separation (personal/business)
+  - Document capture and organization
+
+- **Core Features**
+  - Local-first AI processing
+  - Automatic note linking
+  - Semantic search
+  - Markdown editing
+  - Private and secure
+
+## Vision
+
+REOR is evolving into a comprehensive farm management and personal knowledge management system that:
+
+- Combines personal note-taking with farm business management
+- Handles both private and shared information intelligently
+- Uses AI to reduce manual organization
+- Makes document/information capture effortless
+
+The system aims to:
+- Make capturing information as simple as taking a photo or voice note
+- Let AI handle the organization and relationships
+- Keep personal and business information appropriately separated
+- Make everything easily searchable and retrievable
+- Connect related information automatically
+- Be extendable with additional modules as needed
